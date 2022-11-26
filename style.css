@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+ }
+body{
+    /* width: 100vw; */
+    /* background: linear-gradient(rgba(153, 182, 245, 0.5),rgba(201, 234, 250, 0.5)),url(/pattern-background-desktop.svg); */
+    background: linear-gradient(rgba(153, 182, 245, 0.5),rgba(201, 234, 250, 0.5)),url(/pattern-background-mobile.svg); 
+    /* background-image: url(/pattern-background-mobile.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    font-family:'Red Hat Display', sans-serif;
+
+}
+.header{
+    background:rgb(255, 255, 255);
+    text-align: center;
+    width: 350px;
+    height: 600px;
+     /* position: absolute;  */
+    top: 50%;
+     bottom: 50%;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+    /* transform: translate(-50%, -50%);  */
+    margin-left: auto;
+    margin-right: auto; 
+     margin-top: 70px; 
+    background-image:url(/illustration-hero.svg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    
+    
+    
+}
+ .one{
+    text-align: center;
+    position: relative;
+    top: 12rem;
+    font-size: 16px;
+} 
+.one h1{
+    color:  hsl(223, 47%, 23%);
+}
+.one p{
+    color: hsl(224, 23%, 55%);
+    
+}
+.two{
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+    background-color: hsl(225, 100%, 98%);
+     padding: 0 16px; 
+    height: 80px;
+    border-radius: 16px;
+}
+.two img{
+    width: 50px;
+    height: 50px;
+}
+.two a{
+    font-size: small;
+}
+.two a:hover{
+    cursor: pointer;
+    color: hsl(223, 66%, 64%);
+}
+.price p:first-child{
+    font-weight: bold;
+}
+.price p:nth-child(2){
+    color: hsl(245, 75%, 52%);
+}
+.price p{
+    margin: 0;
+    font-size: small;
+}
+.last button:first-child{
+    position: relative;
+    top: 15rem;
+    height: 50px;
+    width: 280px;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 16px;
+    box-shadow:   3px 10px 5px  hsl(0, 0%, 86%);
+    color: white;
+
+}
+.last button:first-child:hover{
+    cursor: pointer;
+    background-color: hsl(223, 66%, 64%);
+}
+.last button:nth-child(2){
+    position: relative;
+    top: 16rem;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 280px;
+    color:  hsl(224, 23%, 55%);
+}
+.last button:nth-child(2):hover{
+    cursor: pointer;
+    color:  hsl(223, 47%, 23%) ;
+}
